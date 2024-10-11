@@ -1,6 +1,9 @@
 import NavBar from "@/components/navBar"
 import Hero from "./components/hero"
 import StatsSection from "./components/statsSection"
+import ServicesSection from "./components/servicesSection"
+import ImageSlider from "./components/servicesSectionImproved"
+
 
 export default function RealEstateLanding() {
   return (
@@ -14,9 +17,7 @@ export default function RealEstateLanding() {
 
         <StatsSection />
         
-        <div className="container mx-auto flex-col items-center text-center border py-10 ">
-          <p className="font-inter font-bold text-6xl">Conoce nuestros servicios</p>
-        </div>
+        <ImageSlider />
 
       </main>
     </div>

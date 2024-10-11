@@ -3,3 +3,21 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    margin: 0rem;
+}
+
+.image-container {
+    transition: transform 1s ease, width 1s ease, height 1s ease;
+}
+
+.image-container.fullscreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    transform: scale(1);
+}
