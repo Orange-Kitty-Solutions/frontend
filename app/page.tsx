@@ -1,8 +1,7 @@
 import NavBar from "@/components/navBar"
-import Hero from "@/components/hero"
-import StatsSection from "@/components/statsSection"
-import ServicesSection from "@/components/servicesSection"
-import ImageSlider from "@/components/servicesSectionImproved"
+import Hero from "@/components/index/hero"
+import StatsSection from "@/components/index/statsSection"
+import ImageSlider from "@/components/index/servicesSectionImproved"
 
 
 export default function RealEstateLanding() {
